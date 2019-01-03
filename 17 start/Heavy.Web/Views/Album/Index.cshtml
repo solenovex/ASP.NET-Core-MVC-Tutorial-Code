@@ -1,0 +1,20 @@
+﻿@model List<Album>
+@{
+    ViewBag.Title = "专辑列表";
+}
+
+<div class="container">
+
+    <div>
+        <a asp-action="Create" class="btn btn-primary">添加专辑</a>
+    </div>
+
+    <div class="row">
+        @foreach (var al in @Model)
+        {
+            <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-lg-5 ">
+                <partial name="_AlbumCard" model="al" />
+            </div>
+        }
+    </div>
+</div>
