@@ -1,0 +1,52 @@
+﻿@model Heavy.Web.ViewModels.AlbumUpdateViewModel
+@{
+    ViewBag.Title = "编辑专辑";
+}
+
+<form method="post">
+    <div class="form-group row">
+        <label asp-for="Title" class="col-sm-2"></label>
+        <div class="col-sm-10">
+            <input class="form-control" asp-for="Title">
+            <span class="invalid" asp-validation-for="Title"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="CoverUrl" class="col-sm-2"></label>
+        <div class="col-sm-10">
+            <input class="form-control" asp-for="CoverUrl">
+            <span class="invalid" asp-validation-for="CoverUrl"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="Artist" class="col-sm-2"></label>
+        <div class="col-sm-10">
+            <input class="form-control" asp-for="Artist">
+            <span class="invalid" asp-validation-for="Artist"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="ReleaseDate" class="col-sm-2"></label>
+        <div class="col-sm-10">
+            <input class="form-control" asp-for="ReleaseDate">
+            <span class="invalid" asp-validation-for="ReleaseDate"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="Price" class="col-sm-2"></label>
+        <div class="col-sm-10">
+            <input class="form-control" asp-for="Price">
+            <span class="invalid" asp-validation-for="Price"></span>
+        </div>
+    </div>
+
+    <div class="invalid" asp-validation-summary="ModelOnly">
+    </div>
+
+    <button type="submit" class="btn btn-primary">提交</button>
+    <a asp-action="Index" class="btn btn-secondary">返回列表</a>
+</form>

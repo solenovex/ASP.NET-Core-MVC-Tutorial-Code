@@ -1,0 +1,16 @@
+﻿@model Album
+@{
+    ViewBag.Title = "删除明细";
+}
+
+<h2>确认要删除该专辑?</h2>
+<h2>@Model.Title by @Model.Artist @@ @Model.ReleaseDate.ToString("yyyy-MM-dd")?</h2>
+<form method="post">
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <button type="submit" class="btn btn-danger">删除</button>
+            <a asp-action="Index" class="btn btn-secondary">返回列表</a>
+        </div>
+    </div>
+</form>
+
