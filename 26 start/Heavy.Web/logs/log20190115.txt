@@ -1,0 +1,313 @@
+2019-01-15 18:51:42.183 +08:00 [INF] Entity Framework Core 2.2.0-rtm-35687 initialized 'HeavyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-01-15 18:51:44.668 +08:00 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Albums] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-01-15 18:51:44.815 +08:00 [INF] User profile is available. Using 'C:\Users\solen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-15 18:51:47.422 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-01-15 18:51:47.539 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:51:47.576 +08:00 [INF] Executing endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:51:47.622 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing action Heavy.Web.Controllers.HomeController.Index (Heavy.Web)
+2019-01-15 18:51:47.639 +08:00 [INF] Executing action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web) - Validation state: "Valid"
+2019-01-15 18:51:47.643 +08:00 [INF] Visiting Home Index..
+2019-01-15 18:51:47.649 +08:00 [INF] Executed action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6933000000000002ms.
+2019-01-15 18:51:47.680 +08:00 [INF] Executing ViewResult, running view Index.
+2019-01-15 18:51:48.192 +08:00 [INF] Executed ViewResult - view Index executed in 529.31810000000007ms.
+2019-01-15 18:51:48.206 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-15 18:51:48.221 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2019-01-15 18:51:48.221 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-01-15 18:51:48.229 +08:00 [INF] Executed action Heavy.Web.Controllers.HomeController.Index (Heavy.Web) in 603.9189ms
+2019-01-15 18:51:48.229 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-01-15 18:51:48.238 +08:00 [INF] Executed endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:51:48.231 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:51:48.261 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\css\site.css'
+2019-01-15 18:51:48.264 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2019-01-15 18:51:48.268 +08:00 [INF] Request finished in 45.5753ms 200 text/css
+2019-01-15 18:51:48.272 +08:00 [INF] Request finished in 41.2463ms 200 application/javascript
+2019-01-15 18:51:48.277 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:51:48.279 +08:00 [INF] Request finished in 857.5958ms 200 text/html; charset=utf-8
+2019-01-15 18:51:48.284 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-01-15 18:51:48.290 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js  
+2019-01-15 18:51:48.294 +08:00 [INF] Request finished in 16.6028ms 200 application/javascript
+2019-01-15 18:51:48.294 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-01-15 18:51:48.280 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my1.js  
+2019-01-15 18:51:48.294 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery\dist\jquery.js'
+2019-01-15 18:51:48.299 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my2.js  
+2019-01-15 18:51:48.305 +08:00 [INF] Request finished in 76.0426ms 200 application/javascript
+2019-01-15 18:51:48.308 +08:00 [INF] Sending file. Request path: '/js/mine/my1.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my1.js'
+2019-01-15 18:51:48.298 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:51:48.311 +08:00 [INF] Request finished in 90.0297ms 200 application/javascript
+2019-01-15 18:51:48.285 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-01-15 18:51:48.314 +08:00 [INF] Sending file. Request path: '/js/mine/my2.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my2.js'
+2019-01-15 18:51:48.321 +08:00 [INF] Request finished in 41.5961ms 200 application/javascript
+2019-01-15 18:51:48.324 +08:00 [INF] Request finished in 34.3053ms 200 application/javascript
+2019-01-15 18:51:48.327 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-15 18:51:48.331 +08:00 [INF] Request finished in 124.708ms 200 text/css
+2019-01-15 18:51:48.335 +08:00 [INF] Request finished in 36.1794ms 200 application/javascript
+2019-01-15 18:51:48.342 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:51:48.344 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my3.js  
+2019-01-15 18:51:48.350 +08:00 [INF] Request finished in 22.9437ms 200 application/javascript
+2019-01-15 18:51:48.353 +08:00 [INF] Sending file. Request path: '/js/mine/my3.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my3.js'
+2019-01-15 18:51:48.358 +08:00 [INF] Request finished in 14.1291ms 200 application/javascript
+2019-01-15 18:51:51.412 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-01-15 18:51:51.416 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:51:51.418 +08:00 [INF] Executing endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:51:51.424 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing action Heavy.Web.Controllers.HomeController.Index (Heavy.Web)
+2019-01-15 18:51:51.428 +08:00 [INF] Executing action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web) - Validation state: "Valid"
+2019-01-15 18:51:51.435 +08:00 [INF] Visiting Home Index..
+2019-01-15 18:51:51.440 +08:00 [INF] Executed action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.5994ms.
+2019-01-15 18:51:51.447 +08:00 [INF] Executing ViewResult, running view Index.
+2019-01-15 18:51:51.566 +08:00 [INF] Executed ViewResult - view Index executed in 119.0006ms.
+2019-01-15 18:51:51.571 +08:00 [INF] Executed action Heavy.Web.Controllers.HomeController.Index (Heavy.Web) in 143.20000000000002ms
+2019-01-15 18:51:51.577 +08:00 [INF] Executed endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:51:51.579 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2019-01-15 18:51:51.579 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-15 18:51:51.581 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:51:51.599 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-01-15 18:51:51.603 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2019-01-15 18:51:51.581 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-01-15 18:51:51.597 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery\dist\jquery.js'
+2019-01-15 18:51:51.607 +08:00 [INF] Request finished in 28.9766ms 200 text/css
+2019-01-15 18:51:51.618 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\css\site.css'
+2019-01-15 18:51:51.613 +08:00 [INF] Request finished in 31.8416ms 200 application/javascript
+2019-01-15 18:51:51.580 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-01-15 18:51:51.581 +08:00 [INF] Request finished in 169.3261ms 200 text/html; charset=utf-8
+2019-01-15 18:51:51.629 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my1.js  
+2019-01-15 18:51:51.634 +08:00 [INF] Request finished in 53.6394ms 200 text/css
+2019-01-15 18:51:51.639 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my2.js  
+2019-01-15 18:51:51.623 +08:00 [INF] Request finished in 43.537ms 200 application/javascript
+2019-01-15 18:51:51.652 +08:00 [INF] Sending file. Request path: '/js/mine/my1.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my1.js'
+2019-01-15 18:51:51.654 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my3.js  
+2019-01-15 18:51:51.648 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-01-15 18:51:51.666 +08:00 [INF] Request finished in 37.2915ms 200 application/javascript
+2019-01-15 18:51:51.661 +08:00 [INF] Sending file. Request path: '/js/mine/my2.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my2.js'
+2019-01-15 18:51:51.663 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js  
+2019-01-15 18:51:51.649 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:51:51.686 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:51:51.682 +08:00 [INF] Request finished in 42.8726ms 200 application/javascript
+2019-01-15 18:51:51.671 +08:00 [INF] Sending file. Request path: '/js/mine/my3.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my3.js'
+2019-01-15 18:51:51.676 +08:00 [INF] Request finished in 95.8906ms 200 application/javascript
+2019-01-15 18:51:51.690 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-01-15 18:51:51.693 +08:00 [INF] Request finished in 30.8274ms 200 application/javascript
+2019-01-15 18:51:51.700 +08:00 [INF] Request finished in 45.6932ms 200 application/javascript
+2019-01-15 18:51:51.701 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-15 18:51:51.707 +08:00 [INF] Request finished in 57.9587ms 200 application/javascript
+2019-01-15 18:51:51.714 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:51:51.719 +08:00 [INF] Request finished in 18.137ms 200 application/javascript
+2019-01-15 18:53:43.598 +08:00 [INF] Entity Framework Core 2.2.0-rtm-35687 initialized 'HeavyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-01-15 18:53:45.030 +08:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Albums] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-01-15 18:53:45.132 +08:00 [INF] User profile is available. Using 'C:\Users\solen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-15 18:53:47.121 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-01-15 18:53:47.183 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:53:47.221 +08:00 [INF] Executing endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:53:47.246 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing action Heavy.Web.Controllers.HomeController.Index (Heavy.Web)
+2019-01-15 18:53:47.260 +08:00 [INF] Executing action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web) - Validation state: "Valid"
+2019-01-15 18:53:47.262 +08:00 [INF] Visiting Home Index..
+2019-01-15 18:53:47.266 +08:00 [INF] Executed action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0845000000000002ms.
+2019-01-15 18:53:47.292 +08:00 [INF] Executing ViewResult, running view Index.
+2019-01-15 18:53:47.780 +08:00 [INF] Executed ViewResult - view Index executed in 502.2307ms.
+2019-01-15 18:53:47.797 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-15 18:53:47.821 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-01-15 18:53:47.823 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-01-15 18:53:47.822 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2019-01-15 18:53:47.830 +08:00 [INF] Executed action Heavy.Web.Controllers.HomeController.Index (Heavy.Web) in 581.9252ms
+2019-01-15 18:53:47.830 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:53:47.835 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\css\site.css'
+2019-01-15 18:53:47.836 +08:00 [INF] Executed endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:53:47.844 +08:00 [INF] Request finished in 22.8256ms 200 text/css
+2019-01-15 18:53:47.849 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:53:47.849 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2019-01-15 18:53:47.855 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-01-15 18:53:47.867 +08:00 [INF] Request finished in 36.6928ms 200 application/javascript
+2019-01-15 18:53:47.875 +08:00 [INF] Request finished in 26.0076ms 200 application/javascript
+2019-01-15 18:53:47.879 +08:00 [INF] Request finished in 759.0514ms 200 text/html; charset=utf-8
+2019-01-15 18:53:47.881 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my1.js  
+2019-01-15 18:53:47.883 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-01-15 18:53:47.885 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery\dist\jquery.js'
+2019-01-15 18:53:47.884 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my2.js  
+2019-01-15 18:53:47.880 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-01-15 18:53:47.887 +08:00 [INF] Sending file. Request path: '/js/mine/my1.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my1.js'
+2019-01-15 18:53:47.895 +08:00 [INF] Request finished in 73.0775ms 200 application/javascript
+2019-01-15 18:53:47.891 +08:00 [INF] Request finished in 98.7705ms 200 text/css
+2019-01-15 18:53:47.879 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js  
+2019-01-15 18:53:47.899 +08:00 [INF] Sending file. Request path: '/js/mine/my2.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my2.js'
+2019-01-15 18:53:47.908 +08:00 [INF] Request finished in 26.9545ms 200 application/javascript
+2019-01-15 18:53:47.912 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-15 18:53:47.902 +08:00 [INF] Request finished in 79.3315ms 200 application/javascript
+2019-01-15 18:53:47.915 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:53:47.919 +08:00 [INF] Request finished in 35.0299ms 200 application/javascript
+2019-01-15 18:53:47.928 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:53:47.930 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my3.js  
+2019-01-15 18:53:47.933 +08:00 [INF] Request finished in 54.7772ms 200 application/javascript
+2019-01-15 18:53:47.941 +08:00 [INF] Request finished in 28.8457ms 200 application/javascript
+2019-01-15 18:53:47.944 +08:00 [INF] Sending file. Request path: '/js/mine/my3.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my3.js'
+2019-01-15 18:53:47.951 +08:00 [INF] Request finished in 21.4097ms 200 application/javascript
+2019-01-15 18:54:04.392 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Privacy  
+2019-01-15 18:54:15.143 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:54:15.154 +08:00 [INF] Executing endpoint 'Heavy.Web.Controllers.HomeController.Privacy (Heavy.Web)'
+2019-01-15 18:54:15.160 +08:00 [INF] Route matched with {action = "Privacy", controller = "Home", page = "", area = ""}. Executing action Heavy.Web.Controllers.HomeController.Privacy (Heavy.Web)
+2019-01-15 18:54:15.167 +08:00 [INF] Executing action method Heavy.Web.Controllers.HomeController.Privacy (Heavy.Web) - Validation state: "Valid"
+2019-01-15 18:54:15.176 +08:00 [INF] Executed action method Heavy.Web.Controllers.HomeController.Privacy (Heavy.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2899ms.
+2019-01-15 18:54:15.187 +08:00 [INF] Executing ViewResult, running view Privacy.
+2019-01-15 18:54:15.342 +08:00 [INF] Executed ViewResult - view Privacy executed in 161.8964ms.
+2019-01-15 18:54:15.349 +08:00 [INF] Executed action Heavy.Web.Controllers.HomeController.Privacy (Heavy.Web) in 184.3075ms
+2019-01-15 18:54:15.354 +08:00 [INF] Executed endpoint 'Heavy.Web.Controllers.HomeController.Privacy (Heavy.Web)'
+2019-01-15 18:54:15.364 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-01-15 18:54:15.374 +08:00 [INF] Request finished in 10982.2827ms 200 text/html; charset=utf-8
+2019-01-15 18:54:15.367 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:54:15.360 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-15 18:54:15.382 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:54:15.387 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2019-01-15 18:54:15.396 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-01-15 18:54:15.392 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-01-15 18:54:15.365 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2019-01-15 18:54:15.379 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\css\site.css'
+2019-01-15 18:54:15.401 +08:00 [INF] Request finished in 34.8274ms 200 application/javascript
+2019-01-15 18:54:15.424 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery\dist\jquery.js'
+2019-01-15 18:54:15.412 +08:00 [INF] Request finished in 29.9529ms 200 application/javascript
+2019-01-15 18:54:15.417 +08:00 [INF] Request finished in 56.3186ms 200 text/css
+2019-01-15 18:54:15.426 +08:00 [INF] Request finished in 65.8929ms 200 text/css
+2019-01-15 18:54:15.374 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-01-15 18:54:15.432 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my1.js  
+2019-01-15 18:54:15.436 +08:00 [INF] Request finished in 71.7009ms 200 application/javascript
+2019-01-15 18:54:15.438 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my3.js  
+2019-01-15 18:54:15.440 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my2.js  
+2019-01-15 18:54:15.453 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-15 18:54:15.456 +08:00 [INF] Sending file. Request path: '/js/mine/my3.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my3.js'
+2019-01-15 18:54:15.459 +08:00 [INF] Sending file. Request path: '/js/mine/my2.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my2.js'
+2019-01-15 18:54:15.452 +08:00 [INF] Sending file. Request path: '/js/mine/my1.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my1.js'
+2019-01-15 18:54:15.442 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js  
+2019-01-15 18:54:15.451 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-01-15 18:54:15.465 +08:00 [INF] Request finished in 26.8491ms 200 application/javascript
+2019-01-15 18:54:15.469 +08:00 [INF] Request finished in 28.9566ms 200 application/javascript
+2019-01-15 18:54:15.472 +08:00 [INF] Request finished in 40.3378ms 200 application/javascript
+2019-01-15 18:54:15.462 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:54:15.475 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:54:15.479 +08:00 [INF] Request finished in 105.2681ms 200 application/javascript
+2019-01-15 18:54:15.491 +08:00 [INF] Request finished in 37.5288ms 200 application/javascript
+2019-01-15 18:54:15.494 +08:00 [INF] Request finished in 52.6065ms 200 application/javascript
+2019-01-15 18:56:27.884 +08:00 [INF] Entity Framework Core 2.2.0-rtm-35687 initialized 'HeavyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-01-15 18:56:29.316 +08:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Albums] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-01-15 18:56:29.418 +08:00 [INF] User profile is available. Using 'C:\Users\solen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-15 18:56:31.437 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-01-15 18:56:31.505 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:56:31.540 +08:00 [INF] Executing endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:56:31.564 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing action Heavy.Web.Controllers.HomeController.Index (Heavy.Web)
+2019-01-15 18:56:31.586 +08:00 [INF] Executing action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web) - Validation state: "Valid"
+2019-01-15 18:56:31.589 +08:00 [INF] Visiting Home Index..
+2019-01-15 18:56:31.594 +08:00 [INF] Executed action method Heavy.Web.Controllers.HomeController.Index (Heavy.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.2721ms.
+2019-01-15 18:56:31.616 +08:00 [INF] Executing ViewResult, running view Index.
+2019-01-15 18:56:32.104 +08:00 [INF] Executed ViewResult - view Index executed in 497.2112ms.
+2019-01-15 18:56:32.111 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-15 18:56:32.141 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2019-01-15 18:56:32.142 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-01-15 18:56:32.146 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-01-15 18:56:32.149 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:56:32.156 +08:00 [INF] Executed action Heavy.Web.Controllers.HomeController.Index (Heavy.Web) in 589.01960000000008ms
+2019-01-15 18:56:32.157 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\css\site.css'
+2019-01-15 18:56:32.161 +08:00 [INF] Executed endpoint 'Heavy.Web.Controllers.HomeController.Index (Heavy.Web)'
+2019-01-15 18:56:32.163 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2019-01-15 18:56:32.164 +08:00 [INF] Request finished in 22.0415ms 200 text/css
+2019-01-15 18:56:32.174 +08:00 [INF] Request finished in 24.4321ms 200 application/javascript
+2019-01-15 18:56:32.176 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:56:32.179 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js  
+2019-01-15 18:56:32.192 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-01-15 18:56:32.194 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:56:32.194 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-01-15 18:56:32.194 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery\dist\jquery.js'
+2019-01-15 18:56:32.192 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-01-15 18:56:32.199 +08:00 [INF] Request finished in 23.3017ms 200 application/javascript
+2019-01-15 18:56:32.203 +08:00 [INF] Request finished in 24.1002ms 200 application/javascript
+2019-01-15 18:56:32.204 +08:00 [INF] Request finished in 768.693ms 200 text/html; charset=utf-8
+2019-01-15 18:56:32.209 +08:00 [INF] Request finished in 62.5747ms 200 application/javascript
+2019-01-15 18:56:32.212 +08:00 [INF] Request finished in 71.4375ms 200 application/javascript
+2019-01-15 18:56:32.216 +08:00 [INF] Request finished in 104.1335ms 200 text/css
+2019-01-15 18:56:32.218 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my2.js  
+2019-01-15 18:56:32.223 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-15 18:56:32.224 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my3.js  
+2019-01-15 18:56:32.231 +08:00 [INF] Sending file. Request path: '/js/mine/my2.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my2.js'
+2019-01-15 18:56:32.233 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:56:32.228 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my1.js  
+2019-01-15 18:56:32.235 +08:00 [INF] Sending file. Request path: '/js/mine/my3.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my3.js'
+2019-01-15 18:56:32.243 +08:00 [INF] Request finished in 19.6642ms 200 application/javascript
+2019-01-15 18:56:32.239 +08:00 [INF] Request finished in 21.2156ms 200 application/javascript
+2019-01-15 18:56:32.245 +08:00 [INF] Sending file. Request path: '/js/mine/my1.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my1.js'
+2019-01-15 18:56:32.249 +08:00 [INF] Request finished in 25.1049ms 200 application/javascript
+2019-01-15 18:56:32.258 +08:00 [INF] Request finished in 30.3288ms 200 application/javascript
+2019-01-15 18:57:12.956 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Album  
+2019-01-15 18:57:16.173 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:57:16.188 +08:00 [INF] Executing endpoint 'Heavy.Web.Controllers.AlbumController.Index (Heavy.Web)'
+2019-01-15 18:57:16.195 +08:00 [INF] Route matched with {action = "Index", controller = "Album", page = "", area = ""}. Executing action Heavy.Web.Controllers.AlbumController.Index (Heavy.Web)
+2019-01-15 18:57:16.214 +08:00 [INF] Authorization failed.
+2019-01-15 18:57:16.221 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-01-15 18:57:16.230 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-01-15 18:57:16.243 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2019-01-15 18:57:16.248 +08:00 [INF] Executed action Heavy.Web.Controllers.AlbumController.Index (Heavy.Web) in 46.124900000000004ms
+2019-01-15 18:57:16.253 +08:00 [INF] Executed endpoint 'Heavy.Web.Controllers.AlbumController.Index (Heavy.Web)'
+2019-01-15 18:57:16.259 +08:00 [INF] Request finished in 3302.249ms 302 
+2019-01-15 18:57:16.268 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Identity/Account/Login?ReturnUrl=%2FAlbum  
+2019-01-15 18:57:16.271 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2019-01-15 18:57:16.276 +08:00 [INF] Executing endpoint 'Page: /Account/Login'
+2019-01-15 18:57:16.324 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2019-01-15 18:57:16.356 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync with arguments (["/Album"]) - ModelState is "Valid"
+2019-01-15 18:57:16.375 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2019-01-15 18:57:16.380 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-01-15 18:57:16.387 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-01-15 18:57:16.389 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-01-15 18:57:16.615 +08:00 [INF] Executed page /Account/Login in 285.78880000000004ms
+2019-01-15 18:57:16.619 +08:00 [INF] Executed endpoint 'Page: /Account/Login'
+2019-01-15 18:57:16.626 +08:00 [INF] Request finished in 358.3531ms 200 text/html; charset=utf-8
+2019-01-15 18:57:16.633 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-15 18:57:16.633 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-01-15 18:57:16.654 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:57:16.649 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-01-15 18:57:16.638 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2019-01-15 18:57:16.656 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\css\site.css'
+2019-01-15 18:57:16.660 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-01-15 18:57:16.675 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery\dist\jquery.js'
+2019-01-15 18:57:16.676 +08:00 [INF] Request finished in 42.7446ms 200 text/css
+2019-01-15 18:57:16.654 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:57:16.673 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2019-01-15 18:57:16.694 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2019-01-15 18:57:16.688 +08:00 [INF] Request finished in 51.9115ms 200 application/javascript
+2019-01-15 18:57:16.691 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js  
+2019-01-15 18:57:16.683 +08:00 [INF] Request finished in 29.423ms 200 application/javascript
+2019-01-15 18:57:16.708 +08:00 [INF] Request finished in 54.3772ms 200 application/javascript
+2019-01-15 18:57:16.711 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-15 18:57:16.715 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:57:16.720 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Identity/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-15 18:57:16.718 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my1.js  
+2019-01-15 18:57:16.701 +08:00 [INF] Request finished in 52.5023ms 200 application/javascript
+2019-01-15 18:57:16.734 +08:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'N/A'
+2019-01-15 18:57:16.728 +08:00 [INF] Request finished in 37.0307ms 200 application/javascript
+2019-01-15 18:57:16.724 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\site.js'
+2019-01-15 18:57:16.664 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2019-01-15 18:57:16.737 +08:00 [INF] Sending file. Request path: '/js/mine/my1.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my1.js'
+2019-01-15 18:57:16.739 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my3.js  
+2019-01-15 18:57:16.743 +08:00 [INF] Request finished in 22.6419ms 200 application/javascript
+2019-01-15 18:57:16.758 +08:00 [INF] Request finished in 39.817ms 200 application/javascript
+2019-01-15 18:57:16.744 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-15 18:57:16.750 +08:00 [INF] Request finished in 38.4091ms 200 application/javascript
+2019-01-15 18:57:16.753 +08:00 [INF] Request finished in 120.856ms 200 text/css
+2019-01-15 18:57:16.761 +08:00 [INF] Sending file. Request path: '/js/mine/my3.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my3.js'
+2019-01-15 18:57:16.769 +08:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'N/A'
+2019-01-15 18:57:16.774 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/mine/my2.js  
+2019-01-15 18:57:16.777 +08:00 [INF] Request finished in 38.6914ms 200 application/javascript
+2019-01-15 18:57:16.781 +08:00 [INF] Request finished in 36.5754ms 200 application/javascript
+2019-01-15 18:57:16.785 +08:00 [INF] Sending file. Request path: '/js/mine/my2.js'. Physical path: 'D:\Projects\dotnet\Heavy.Ltd\26 start\Heavy.Web\wwwroot\js\mine\my2.js'
+2019-01-15 18:57:16.791 +08:00 [INF] Request finished in 17.223ms 200 application/javascript

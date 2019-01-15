@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ApplicationUser>
+
+@{
+    ViewBag.Title = "用户列表";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">用户名</th>
+            <th scope="col">Email</th>
+            <th scope="col">身份证</th>
+            <th scope="col">出生日期</th>
+            <th scope="col">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+        <tr>
+            <th scope="row">@u.Id</th>
+            <td>@u.UserName</td>
+            <td>@u.Email</td>
+            <td>@u.IdCardNo</td>
+            <td>@u.BirthDate</td>
+            <td>
+                <form asp-action="DeleteUser" asp-route-id="@u.Id" method="post" style="white-space: nowrap;">
+                    <a asp-action="EditUser" asp-route-id="@u.Id" class="btn btn-primary">编辑</a>
+                    <button type="submit" class="btn btn-danger"
+                            onclick="return confirm('确认删除？')">
+                        删除
+                    </button>
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="AddUser" class="btn btn-primary">添加用户</a>
