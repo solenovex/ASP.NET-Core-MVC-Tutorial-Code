@@ -1,0 +1,14 @@
+﻿@model Album
+
+<div class="card" style="width: 100%;">
+    <img src="@Model.CoverUrl" class="card-img-top" alt="@Model.Title">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">
+            by @Html.Raw(@Model.Artist) @@ @Model.ReleaseDate.ToString("yyyy-MM-dd")
+        </p>
+        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-secondary">查看明细</a>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">编辑</a>
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">删除</a>
+    </div>
+</div>

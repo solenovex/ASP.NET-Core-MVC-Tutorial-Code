@@ -1,0 +1,18 @@
+﻿@model Heavy.Web.ViewModels.UserRoleViewModel
+
+@{
+    ViewBag.Title = "添加用户到角色";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="AddUserToRole" method="post">
+    <input type="hidden" name="roleId" value="@Model.RoleId" />
+
+    <select class="form-control" style="width: 300px; display: inline;" asp-for="UserId" asp-items="@(new SelectList(Model.Users, "Id", "UserName"))">
+        <option> -- 请选择一个用户 -- </option>
+    </select>
+
+    <button class="btn btn-primary" type="submit">添加</button>
+    <a class="btn btn-secondary" asp-action="EditRole" asp-route-id="@Model.RoleId">返回</a>
+</form>
